@@ -1,0 +1,30 @@
+<mat-tree [dataSource]="menuTreeDataSource" [treeControl]="menuTreeControl" class="example-tree">
+    <!-- This is the tree node template for leaf nodes -->
+    <!-- There is inline padding applied to this node using styles.
+      This padding value depends on the mat-icon-button width. -->
+    <mat-tree-node *matTreeNodeDef="let node" matTreeNodeToggle>
+        <button mat-button [class.selected]="isSelected(node)" class="menu-item" *ngIf="node.name !== MenuItem.DIVIDER"
+              (click)="onSelected(node)" [disabled]="node.disabled" [attr.aria-label]="node.name"
+      >{{'&nbsp;&nbsp;&nbsp;&nbsp;'.repeat(node.level-1)}}
+        <mat-icon *ngIf="node.icon">{{node.icon}}</mat-icon><i class="{{node.ficon}}" *ngIf="node.ficon"></i> &nbsp;{{node.label|translate}}</button>
+      <mat-divider *ngIf="node.name === MenuItem.DIVIDER"></mat-divider>
+    </mat-tree-node>
+    <!-- This is the tree node template for expandable nodes -->
+    <mat-nested-tree-node *matTreeNodeDef="let node; when: hasChild">
+        <div class="mat-tree-node">
+          <button mat-icon-button matTreeNodeToggle
+                  [attr.aria-label]="'Toggle ' + node.name">
+            <mat-icon class="mat-icon-rtl-mirror">
+              {{menuTreeControl.isExpanded(node) ? 'expand_more' : 'chevron_right'}}
+            </mat-icon>
+          </button>
+          {{node.name}}
+        </div>
+        <!-- There is inline padding applied to this div using styles.
+            This padding value depends on the mat-icon-button width.  -->
+        <div [class.example-tree-invisible]="!menuTreeControl.isExpanded(node)"
+            role="group">
+          <ng-container matTreeNodeOutlet></ng-container>
+      </div>
+    </mat-nested-tree-node>
+  </mat-tree>

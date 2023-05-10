@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "MZ-MyMz:build:production"
+              "browserTarget": "mz-my-mz:build:production"
             },
             "development": {
-              "browserTarget": "MZ-MyMz:build:development"
+              "browserTarget": "mz-my-mz:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "MZ-MyMz:build"
+            "browserTarget": "mz-my-mz:build"
           }
         },
         "test": {
@@ -96,6 +96,105 @@
               "src/styles.scss"
             ],
             "scripts": []
+          }
+        }
+      }
+    },
+    "mz-shared": {
+      "projectType": "library",
+      "root": "projects/mz-shared",
+      "sourceRoot": "projects/mz-shared/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/mz-shared/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/mz-shared/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/mz-shared/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "projects/mz-shared/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
+          }
+        }
+      }
+    },
+    "mz-menu": {
+      "projectType": "library",
+      "root": "projects/mz-menu",
+      "sourceRoot": "projects/mz-menu/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/mz-menu/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/mz-menu/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/mz-menu/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "projects/mz-menu/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
+          }
+        }
+      }
+    },
+    "mz-common": {
+      "projectType": "library",
+      "root": "projects/mz-common",
+      "sourceRoot": "projects/mz-common/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/mz-common/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/mz-common/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/mz-common/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "projects/mz-common/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
           }
         }
       }

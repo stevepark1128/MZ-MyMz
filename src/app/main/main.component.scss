@@ -1,0 +1,75 @@
+:host {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  height: 100%;
+
+  ::ng-deep {
+    mat-sidenav {
+      background: #fff;
+      padding: 0;
+      width: 240px;
+    }
+
+    .side-nav-content {
+      position: relative;
+      padding: 20px;
+      min-height: calc(100% - 150px);
+    }
+  }
+
+  ::ng-deep footer {
+    margin-bottom: 40px !important;
+  }
+}
+
+// .home-link {
+//   text-decoration: none;
+//   color: inherit;
+// }
+
+.mat-sidenav {
+  position: relative !important;
+  //top: 64px !important;
+}
+
+.main-spacer {
+  flex: 1 1 auto;
+}
+
+.main-container {
+  //flex: 1 1 auto;
+  position:relative !important;
+  // top: 0;
+  // bottom: 0;
+  // left: 0;
+  // right: 0;
+  // height:100%
+}
+
+::ng-deep .mat-drawer-inner-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden !important;
+}
+// .mat-tree {
+//   background: none;
+//   min-width: 150px;
+//   // overflow-x: scroll;
+//   cursor: pointer;
+// }
+
+// .mat-tree-node.top-node {
+//   padding: 0 10px !important;
+// }
+
+// .mat-tree-node.selected {
+//   color: #007396;
+//   font-weight: bold;
+// }
+
+// .mat-tree-node.top-node.selected {
+//   color: #007396;
+//   font-weight: bold;
+//   background-color: #e5f1f4;
+// }

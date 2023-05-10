@@ -1,0 +1,36 @@
+<mat-tree [dataSource]="menuTreeDataSource" [treeControl]="menuTreeControl" class="tree-menu">
+  <mat-tree-node *matTreeNodeDef="let node" matTreeNodeToggle>
+    <div class="mat-tree-node">
+      <button mat-button [class.selected]="isSelected(node)" class="menu-item" *ngIf="node.name !== MenuItem.DIVIDER"
+              (click)="onSelected(node)" [disabled]="node.disabled" [attr.aria-label]="node.name">
+        {{'&nbsp;&nbsp;&nbsp;&nbsp;'.repeat(node.level-1)}} 
+        <mat-icon *ngIf="node.icon">{{node.icon}}</mat-icon>
+        <fa-icon [icon]="node.ficon"></fa-icon>
+        &nbsp;{{node.label|translate}}
+      </button>
+      <mat-divider *ngIf="node.name === MenuItem.DIVIDER"></mat-divider>
+      </div>
+  </mat-tree-node>
+  <!-- This is the tree node template for expandable nodes -->
+  <mat-nested-tree-node *matTreeNodeDef="let node; when: hasChild">
+    <div class="mat-tree-node" >
+      <button mat-button matTreeNodeToggle [disabled]="node.disabled" *ngIf="node.name !== MenuItem.DIVIDER"
+              class="menu-item" role="button"
+              [class.selected]="isSelected(node)"  
+              (click)="onSelected(node)"
+              [attr.aria-label]="'Toggle ' + node.name">
+          {{'&nbsp;&nbsp;&nbsp;&nbsp;'.repeat(node.level-1)}}
+          <mat-icon *ngIf="node.icon">{{node.icon}}</mat-icon>
+          <fa-icon [icon]="node.ficon" [styles]="{ stroke: 'red', color: 'red' }"></fa-icon>
+          &nbsp;{{node.label|translate}}
+          <mat-icon class="mat-icon-rtl-mirror">
+            {{menuTreeControl.isExpanded(node) ? 'expand_more' : 'chevron_right'}}
+          </mat-icon>
+      </button>
+      <mat-divider *ngIf="node.name === MenuItem.DIVIDER"></mat-divider>
+    </div>
+    <span [class.tree-node-invisible]="!menuTreeControl.isExpanded(node)" role="group">
+      <ng-container matTreeNodeOutlet></ng-container>
+    </span>
+  </mat-nested-tree-node>
+  </mat-tree>

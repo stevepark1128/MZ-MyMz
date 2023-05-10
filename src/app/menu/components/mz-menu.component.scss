@@ -1,0 +1,86 @@
+@import "./../../../scss/variables";
+
+// .tree-menu {
+//   margin: 2px 0;
+//   background: #f1f1f1;
+
+//   .tree-node-invisible {
+//     display: none;
+//   }
+
+//   .menu-item {
+//     color: #333E47;
+
+//     &.selected {
+//       color: $light-blue;
+//       font-weight: bold;
+//       background-color: $color-highlight;
+//     }
+//   }
+
+//   .btn-toggle {
+//     min-width: 0;
+//     padding: 0 0;
+//   }
+
+//   mat-divider {
+//     width: 100%;
+//   }
+
+//   ::ng-deep .mat-tree-node {
+//     max-width: 220px;
+
+//     button {
+//       width: 100%;
+//       text-align: left;
+
+//       .mat-button-wrapper {
+//         display: flex;
+//         align-items: center;
+//       }
+
+//       .expander-icon {
+//         margin-left: auto;
+//       }
+//     }
+//   }
+
+//   ::ng-deep .mat-tree-list-item {
+
+//     ul {
+//       margin-left: 15px;
+//     }
+//   }
+
+
+// }
+.mat-divider {
+      width: 100%;
+    }
+
+.tree-node-invisible {
+  display: none;
+}
+
+.tree-menu ul,
+.tree-menu li {
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+}
+
+/*
+ * This padding sets alignment of the nested nodes.
+ */
+.tree-menu .mat-nested-tree-node div[role=group] {
+  padding-left: 40px;
+}
+
+/*
+ * Padding for leaf nodes.
+ * Leaf nodes need to have padding so as to align with other non-leaf nodes
+ * under the same parent.
+ */
+.tree-menu div[role=group] > .mat-tree-node {
+  padding-left: 40px;
+}
