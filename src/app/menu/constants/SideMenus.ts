@@ -49,15 +49,15 @@ export const menus: MenuNode[] = [
             level: 2,
         },
         {
-            name: '',
-            label: 'weeklyExercise',
+            name: 'store-manager',
+            label: 'Store Manager',
             level: 2,
             children: [
             {
-                label: 'qnaHomiletics',
-                name: 'leading_weekly_exercise_qna_homelitic',
+                label: 'scheduler',
+                name: 'scheduler',
                 level: 3,
-                link: 'lessons-user-homiletic/qna-homiletic',
+                link: 'scheduler',
             }
             ]
         }
@@ -70,9 +70,9 @@ export const menus: MenuNode[] = [
     },
     {
         level: 1,
-        label: 'FindAGroup',
+        label: 'Find APIs',
         link: 'https://bsf-mca-fcl-dev.bsfinternational.org',
-        name: 'findAGroup',
+        name: 'find-apis',
         url: true
     }
     ];

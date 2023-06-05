@@ -1,14 +1,17 @@
 <mat-sidenav-container class="main-container">
   <mat-sidenav #sidenav 
-  [fixedInViewport]="false" 
   [mode]="(isHandsetOrTablet$ | async) ? 'over' : 'side'"
   [opened]="!(isHandsetOrTablet$ | async)">
   <lib-mz-menu [menus]="filteredMenus" (menuSelected)="onSideMenuSelected()"></lib-mz-menu>
   </mat-sidenav>
-  <mat-sidenav-content>
-    <div class="side-nav-content">
-      <router-outlet></router-outlet>
-      <div></div>
-    </div>
-  </mat-sidenav-content>
+  <router-outlet></router-outlet>
 </mat-sidenav-container>
+
+<!-- <div fxLayout="row" fxLayoutAlign="space-between">
+  <div fxFlex="25" class="sec1" fxFlex.xs="25">
+    <lib-mz-menu [menus]="filteredMenus" (menuSelected)="onSideMenuSelected()"></lib-mz-menu>
+  </div>
+  <div fxFlex="75" class="sec1" fxFlex.xs="75">
+    <router-outlet></router-outlet>
+  </div>
+</div> -->

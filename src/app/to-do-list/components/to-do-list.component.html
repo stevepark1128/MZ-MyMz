@@ -1,0 +1,61 @@
+<div fxLayout="row" fxLayoutAlign="space-between">
+    <div fxFlex="100" class="sec1" fxFlex.xs="100">
+        <h4>To do list: </h4>
+        <table mat-table [dataSource]="dataSource" matSort>
+
+            <!-- Position Column -->
+            <ng-container matColumnDef="id">
+              <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by number"> No. </th>
+              <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+            </ng-container>
+        
+            <!-- Name Column -->
+            <ng-container matColumnDef="name">
+              <th mat-header-cell *matHeaderCellDef> Name </th>
+              <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+            </ng-container>
+        
+            <!-- Weight Column -->
+            <ng-container matColumnDef="description">
+              <th mat-header-cell *matHeaderCellDef> description </th>
+              <td mat-cell *matCellDef="let element"> {{element.description}} </td>
+            </ng-container>
+        
+            <!-- Symbol Column -->
+            <ng-container matColumnDef="startdate">
+              <th mat-header-cell *matHeaderCellDef> Start Date </th>
+              <td mat-cell *matCellDef="let element"> {{element.startDate}} </td>
+            </ng-container>
+
+             <!-- Symbol Column -->
+             <ng-container matColumnDef="enddate">
+              <th mat-header-cell *matHeaderCellDef> End Date </th>
+              <td mat-cell *matCellDef="let element"> {{element.endDate}} </td>
+            </ng-container>
+
+            <!-- Symbol Column -->
+            <ng-container matColumnDef="edit">
+              <th mat-header-cell *matHeaderCellDef> Edit </th>
+              <td mat-cell *matCellDef="let element"> <button mat-raised-button color="primary" (click)="onEdit(element.id)">Edit</button> </td>
+            </ng-container>
+        
+            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+          </table>
+        
+          <mat-paginator [pageSizeOptions]="[5, 10, 20]"
+                         showFirstLastButtons
+                         aria-label="Select page of periodic elements">
+          </mat-paginator>
+    </div>
+</div>
+<div fxLayout="row" fxLayoutAlign="space-between">
+  <div fxFlex="100" class="sec2" fxFlex.xs="100">
+    <button mat-raised-button color="primary" (click)="onAdd()">Add new task</button>
+  </div>
+</div>
+
+<!-- <form [formGroup]="toDoForm" novalidate>
+   
+</form> -->
+    

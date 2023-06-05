@@ -23,8 +23,10 @@ export class MainComponent implements OnInit {
   public isHandsetOrTablet$: Observable<boolean> = this.breakpointObserver
   .observe([Breakpoints.Handset, Breakpoints.Tablet])
   .pipe(map((result: BreakpointState) => result.matches));
+  
   constructor(private breakpointObserver: BreakpointObserver,
     private menuService: MzMenuService) { }
+  
   ngOnInit(): void {
     this.menuService.menus$.subscribe(menu => this.filteredMenus = menu);
   }

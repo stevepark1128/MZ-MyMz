@@ -1,0 +1,45 @@
+<form [formGroup]="jsonInputForm" novalidate>
+    <div fxLayout="row" fxLayoutAlign="space-between">
+        <div fxFlex="45" class="sec1" fxFlex.xs="45">
+			<div class="container">
+                <h2 class="title">Json editor</h2>
+                <div class="content">
+                    <div class="editor">
+                        <ngx-editor-menu [editor]="editors[0]" [toolbar]="toolbar">
+                        </ngx-editor-menu>
+                        <ngx-editor [editor]="editors[0]" formControlName="editorContent1">
+                        </ngx-editor>
+                    </div>
+                </div>
+            </div>
+		</div>
+		<div fxFlex="10" class="sec2">
+            <div class="button-container">
+                <h2 class="title"></h2>
+                <div class="content">
+                    <button mat-raised-button (click)="parseJasonToRight()">
+                        <fa-icon [icon]="['fas', 'arrow-alt-circle-right']" [styles]="{ stroke: 'black', color: 'black' }"></fa-icon>
+                    </button>
+                </div>
+                <div class="content" (click)="parseJasonToLeft()">
+                    <button mat-raised-button>
+                        <fa-icon [icon]="['fas', 'arrow-alt-circle-left']" [styles]="{ stroke: 'black', color: 'black' }"></fa-icon>
+                    </button>
+                </div>
+            </div>
+		</div>
+		<div fxFlex="45" class="sec3" fxFlex.xs="45">
+			<div class="container">
+                <h2 class="title">Json editor</h2>
+                <div class="content">
+                    <div class="editor">
+                        <ngx-editor-menu [editor]="editors[1]" [toolbar]="toolbar">
+                        </ngx-editor-menu>
+                        <ngx-editor [editor]="editors[1]" formControlName="editorContent2">
+                        </ngx-editor>
+                    </div>
+                </div>
+            </div>
+		</div>
+    </div>
+</form>

@@ -9,6 +9,7 @@ import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     BrowserModule,
     BrowserAnimationsModule,
     MzMaterialModule,
+    FormsModule,
     // ngx-translate and the loader module
     HttpClientModule,
     TranslateModule.forRoot({
@@ -36,6 +38,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     BrowserModule,
     BrowserAnimationsModule,
     MzMaterialModule,
+    FormsModule,
     MzSharedComponent,
     HttpClientModule,
     TranslateModule,

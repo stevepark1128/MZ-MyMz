@@ -5,7 +5,7 @@
               (click)="onSelected(node)" [disabled]="node.disabled" [attr.aria-label]="node.name">
         {{'&nbsp;&nbsp;&nbsp;&nbsp;'.repeat(node.level-1)}} 
         <mat-icon *ngIf="node.icon">{{node.icon}}</mat-icon>
-        <fa-icon [icon]="node.ficon"></fa-icon>
+        <fa-icon [icon]="node.ficon" *ngIf="node.ficon"></fa-icon>
         &nbsp;{{node.label|translate}}
       </button>
       <mat-divider *ngIf="node.name === MenuItem.DIVIDER"></mat-divider>
@@ -21,7 +21,7 @@
               [attr.aria-label]="'Toggle ' + node.name">
           {{'&nbsp;&nbsp;&nbsp;&nbsp;'.repeat(node.level-1)}}
           <mat-icon *ngIf="node.icon">{{node.icon}}</mat-icon>
-          <fa-icon [icon]="node.ficon" [styles]="{ stroke: 'red', color: 'red' }"></fa-icon>
+          <fa-icon [icon]="node.ficon" [styles]="{ stroke: 'red', color: 'red' }" *ngIf="node.ficon"></fa-icon>
           &nbsp;{{node.label|translate}}
           <mat-icon class="mat-icon-rtl-mirror">
             {{menuTreeControl.isExpanded(node) ? 'expand_more' : 'chevron_right'}}

@@ -1,0 +1,17 @@
+ng generate c page-not-found
+
+ng generate lib mz-shared
+
+ng build mz-shared --configuration production
+
+npm publish ./dist/mz-shared
+
+ng generate lib mz-menu
+
+ng build mz-menu --configuration production
+
+npm publish ./dist/mz-menu
+
+ng generate lib mz-common
+
+npm i mz-shared@latest  
