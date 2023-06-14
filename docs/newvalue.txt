@@ -1,0 +1,94 @@
+https://manage.cookiebot.com/en/cookies
+
+Server=tcp:bsf-mca-sql-dev.database.windows.net,1433;Initial Catalog=bsf_db_temp_for_class;Persist Security Info=False;User ID=bsf-mca-sql-dev;Password=Password1!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+
+itinvoices@bsfinternational.org
+rQuzX697ZLY
+
+User: bsf.online.dev+16@gmail.com bsf.online.dev+100@gmail.com bsf.online.dev+3500@gmail.com
+Pass: Pass@word1
+https://localhost:4202/accounts/account/me/profile-in-person
+
+amdawson777.gmail.com@bsfi.cc
+L05w1VT53cRrP!
+
+"file:../../BSF-UI-Library/dist/common-ui",
+
+https://material.angular.io/
+
+dotnet ef dbcontext Scaffold "Server=localhost,1433;Initial Catalog=BSF_DB;Trusted_Connection=True" Microsoft.EntityFrameworkCore.SqlServer -o Entities
+
+dotnet ef dbcontext Scaffold "Data Source=DESKTOP-6NBSKK2;Initial Catalog=bsf;Trusted_Connection=True" Microsoft.EntityFrameworkCore.SqlServer -o Entities
+
+https://newvaluesolution.sharepoint.com/NVSOrg/BSF/PMO_Porfolio/Programs/Forms/AllItems.aspx?viewid=19f1e8c0%2D5448%2D4599%2Dab6e%2Dd5300b87f0f0&id=%2FNVSOrg%2FBSF%2FPMO%5FPorfolio%2FPrograms%2FP01%20%2D%20MCA%20Program
+
+Database update
+https://newvaluesolution.sharepoint.com/:p:/r/NVSOrg/BSF/PMO_Porfolio/_layouts/15/Doc.aspx?sourcedoc=%7BC6850913-9910-4C6E-B8DF-497982DCC2B8%7D&file=MCA%20-%20Database%20Design%20Overview%20and%20Explains.pptx&action=edit&mobileredirect=true&cid=d2bde274-91b8-46a9-b287-fea7da0fbbdd&PreviousSessionID=eb0536b2-3070-874d-f3a1-a2d94666223f
+
+Code first
+https://newvaluesolution.sharepoint.com/:w:/r/NVSOrg/BSF/PMO_Porfolio/_layouts/15/Doc.aspx?sourcedoc=%7BC8CF1D13-48FF-457C-923F-4B0E6B2D2C85%7D&file=Code%20First%20Dec%2023%202020.docx&action=default&mobileredirect=true&cid=bb56de79-656c-4885-9861-e8695d7b157e
+https://newvaluesolution-my.sharepoint.com/:w:/r/personal/steve_chang_newvaluegroup_com/_layouts/15/WopiFrame2.aspx?action=edit&sourcedoc=%7B94046c76-5e44-4fce-a67e-7aa40ea5a2c4%7D&cid=5dbb1ea0-2743-43b7-83cc-aec5f0b1abb4
+
+https://newvaluesolution.sharepoint.com/NVSOrg/BSF/PMO_Porfolio/Programs/Forms/AllItems.aspx?id=%2FNVSOrg%2FBSF%2FPMO%5FPorfolio%2FPrograms%2FP01%20%2D%20MCA%20Program%2FPG06%20%2D%20Solution%20Architecture%2FRecordings%5FFramework%5FGuidelines&p=true&originalPath=aHR0cHM6Ly9uZXd2YWx1ZXNvbHV0aW9uLnNoYXJlcG9pbnQuY29tLzpmOi9nL05WU09yZy9CU0YvUE1PX1BvcmZvbGlvL0VubXB5U2VKZTVGSHQ3aWlJN1pFNFE4QjNobzg3TVZjck5xb2lhTnRTVjhQSFE_cnRpbWU9aWIzSjJETGYyRWc
+
+https://newvaluesolution.sharepoint.com/:w:/r/NVSOrg/BSF/PMO_Porfolio/_layouts/15/Doc.aspx?sourcedoc=%7BC8CF1D13-48FF-457C-923F-4B0E6B2D2C85%7D&file=Code%20First%20Dec%2023%202020.docx&action=default&mobileredirect=true&cid=bb56de79-656c-4885-9861-e8695d7b157e
+
+
+
+https://bsf-mca-group-dev.azureedge.net/group
+
+https://bsf-mca-class-dev.azureedge.net/class/create
+
+https://bsf-mca-attendance-dev.azureedge.net/
+
+https://bsf-mca-cp-checklist-dev.azureedge.net
+
+
+
+
+https://newvaluesolution-my.sharepoint.com/:w:/r/personal/steve_chang_newvaluegroup_com/_layouts/15/WopiFrame2.aspx?action=edit&sourcedoc=%7B94046c76-5e44-4fce-a67e-7aa40ea5a2c4%7D&cid=5dbb1ea0-2743-43b7-83cc-aec5f0b1abb4
+
+https://newvaluesolution.sharepoint.com/:w:/r/NVSOrg/BSF/PMO_Porfolio/_layouts/15/Doc.aspx?sourcedoc=%7B27D22157-3570-4803-BB04-43763FEB0F3F%7D&file=TL%20Checklist%20table%20field%20mapping%20to%20class.bsf%20UI.docx&action=default&mobileredirect=true&DefaultItemOpen=1&cid=85772e5e-54f0-49bd-9b5d-c3b2d7cce9eb
+
+https://newvaluesolution.sharepoint.com/NVSOrg/BSF/PMO_Porfolio/Programs/Forms/AllItems.aspx?id=%2FNVSOrg%2FBSF%2FPMO%5FPorfolio%2FPrograms%2FP01%20%2D%20MCA%20Program%2FPG07%20%2D%20Information%20Architecture%20UI%20UX%20Design%2FBSFMCA%5FUX%5FModule%2DClass%2DCPChecklist%5FR101%2Epdf&parent=%2FNVSOrg%2FBSF%2FPMO%5FPorfolio%2FPrograms%2FP01%20%2D%20MCA%20Program%2FPG07%20%2D%20Information%20Architecture%20UI%20UX%20Design&p=true&originalPath=aHR0cHM6Ly9uZXd2YWx1ZXNvbHV0aW9uLnNoYXJlcG9pbnQuY29tLzpiOi9nL05WU09yZy9CU0YvUE1PX1BvcmZvbGlvL0VRZEthZzJsQVZoQmhTUkw5NUZ1eVVjQlF1SnJJbGtxX0tUSjFpRWhOU2pTdFE_cnRpbWU9bXMwWFVmbnEyRWc
+
+
+
+New resource group
+https://newvaluesolution.sharepoint.com/:x:/g/NVSOrg/BSF/PMO_Porfolio/EVOOAuV7xBZDlqba89TQdXQBNDcLEECKOebqt0P4GD63uA?e=tfgKqx
+
+
+Attendance
+https://newvaluesolution.sharepoint.com/:b:/g/NVSOrg/BSF/PMO_Porfolio/ET9BwAQoR4pGsVrKAJQexdAByTSP4GFJHkihhvycxNfl6g?e=Cq4Lg0
+
+
+CP Checklist
+https://newvaluesolution.sharepoint.com/:x:/r/NVSOrg/BSF/PMO_Porfolio/_layouts/15/Doc.aspx?sourcedoc=%7B966AA4AF-8F9F-456F-BC52-8E767640B5E9%7D&file=CP%20program%20checklist%20-%20variations.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1&cid=d63a0ea4-e53c-4793-8a77-862d246eda72
+
+https://newvaluesolution.sharepoint.com/NVSOrg/BSF/PMO_Porfolio/Programs/Forms/AllItems.aspx?CT=1604012424040&OR=OWA%2DNT&CID=4fa3b1ec%2D1f78%2D3016%2D0222%2Da9b84f9855cf&id=%2FNVSOrg%2FBSF%2FPMO%5FPorfolio%2FPrograms%2FP01%20%2D%20MCA%20Program%2FPG07%20%2D%20Information%20Architecture%20UI%20UX%20Design%2FBSFMCA%5FUX%5FModule%2DClass%2DCPChecklist%5FR104%2Epdf&parent=%2FNVSOrg%2FBSF%2FPMO%5FPorfolio%2FPrograms%2FP01%20%2D%20MCA%20Program%2FPG07%20%2D%20Information%20Architecture%20UI%20UX%20Design
+https://newvaluesolution.sharepoint.com/:x:/g/NVSOrg/BSF/PMO_Porfolio/Ea-kapafj29FvFKOdnZAtekB9JDyDwMH6YtOZINk65mVvg?e=IyKHXV
+https://newvaluesolution.sharepoint.com/:x:/r/NVSOrg/BSF/PMO_Porfolio/_layouts/15/Doc.aspx?sourcedoc=%7B317107CE-113A-4F23-8DB0-45A738B3AD02%7D&file=mca%20database%20queries%20-.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1&cid=ae6e38a4-c454-403f-b2dd-1f4dd6ce22ff
+https://newvaluesolution.sharepoint.com/:w:/r/NVSOrg/BSF/PMO_Porfolio/_layouts/15/Doc.aspx?sourcedoc=%7B27D22157-3570-4803-BB04-43763FEB0F3F%7D&file=TL%20Checklist%20table%20field%20mapping%20to%20class.bsf%20UI.docx&action=default&mobileredirect=true&DefaultItemOpen=1
+Placement:
+https://newvaluesolution.sharepoint.com/:w:/r/NVSOrg/BSF/PMO_Porfolio/_layouts/15/Doc.aspx?sourcedoc=%7B6CD05C1A-48D5-4A96-8E5F-98BB692C6E4C%7D&file=Class%20Status%20Leadership%20and%20Staff.docx&action=default&mobileredirect=true&DefaultItemOpen=1&cid=94a19fc4-c9f6-4d7a-87f4-66b42eec08c5
+Role and position
+https://newvaluesolution.sharepoint.com/:x:/r/NVSOrg/BSF/PMO_Porfolio/_layouts/15/Doc.aspx?sourcedoc=%7B41D861C9-DD19-4336-8A7A-8E38F16A0218%7D&file=Mapping%20of%20roles%20and%20position%202020-01-07.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1&cid=e30a8036-2c9e-46de-ba74-d50a305da0f8
+
+
+User role - class-staff
+
+https://newvaluesolution.sharepoint.com/:b:/g/NVSOrg/BSF/PMO_Porfolio/EbD6aWQe_WNOtrXU_L3w0VABwhDXNsUfIb0wVIwh9W4HHA?e=H4cvBJ
+https://newvaluesolution.sharepoint.com/:x:/g/NVSOrg/BSF/PMO_Porfolio/Eclh2EEZ3TZDinqOOPFqAhgBIbersiYjeYr0lRtG1vUQjg?e=bFeUvC)%3A
+https://newvaluesolution.sharepoint.com/:x:/r/NVSOrg/BSF/PMO_Porfolio/_layouts/15/doc2.aspx?sourcedoc=%7B317107CE-113A-4F23-8DB0-45A738B3AD02%7D&file=mca%20database%20queries%20-.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1&cid=a70ea403-d4d5-4f1a-a37e-ffca22285810
+https://newvaluesolution.sharepoint.com/NVSOrg/BSF/PMO_Porfolio/Programs/Forms/AllItems.aspx?id=%2FNVSOrg%2FBSF%2FPMO%5FPorfolio%2FPrograms%2FP01%20%2D%20MCA%20Program%2FPG07%20%2D%20Information%20Architecture%20UI%20UX%20Design%2FBSFMCA%5FUX%5FUserManagement%5FMYBSF%5FRoleAssignment%2Epdf&parent=%2FNVSOrg%2FBSF%2FPMO%5FPorfolio%2FPrograms%2FP01%20%2D%20MCA%20Program%2FPG07%20%2D%20Information%20Architecture%20UI%20UX%20Design&p=true&originalPath=aHR0cHM6Ly9uZXd2YWx1ZXNvbHV0aW9uLnNoYXJlcG9pbnQuY29tLzpiOi9nL05WU09yZy9CU0YvUE1PX1BvcmZvbGlvL0ViRDZhV1FlX1dOT3RyWFVfTDN3MFZBQndoRFhOc1VmSWIwd1ZJd2g5VzRISEE_cnRpbWU9dEtEckoxb0QyVWc
+https://newvaluesolution.sharepoint.com/:w:/r/NVSOrg/BSF/PMO_Porfolio/_layouts/15/Doc.aspx?sourcedoc=%7B6CD05C1A-48D5-4A96-8E5F-98BB692C6E4C%7D&file=Class%20Status%20Leadership%20and%20Staff.docx&action=default&mobileredirect=true&DefaultItemOpen=1&cid=94a19fc4-c9f6-4d7a-87f4-66b42eec08c5
+https://newvaluesolution.sharepoint.com/:x:/g/NVSOrg/BSF/PMO_Porfolio/Ea-kapafj29FvFKOdnZAtekB9JDyDwMH6YtOZINk65mVvg?e=IyKHXV
+
+
+Request Join - class
+https://newvaluesolution.sharepoint.com/NVSOrg/BSF/PMO_Porfolio/Programs/Forms/AllItems.aspx?CT=1604012424040&OR=OWA%2DNT&CID=4fa3b1ec%2D1f78%2D3016%2D0222%2Da9b84f9855cf&id=%2FNVSOrg%2FBSF%2FPMO%5FPorfolio%2FPrograms%2FP01%20%2D%20MCA%20Program%2FPG07%20%2D%20Information%20Architecture%20UI%20UX%20Design%2FBSFMCA%5FUX%5FModule%2DClass%2DJoinRequest%5FR100%2Epdf&parent=%2FNVSOrg%2FBSF%2FPMO%5FPorfolio%2FPrograms%2FP01%20%2D%20MCA%20Program%2FPG07%20%2D%20Information%20Architecture%20UI%20UX%20Design
+
+
+Resouce Library-class
+
+https://newvaluesolution.sharepoint.com/NVSOrg/BSF/PMO_Porfolio/Programs/Forms/AllItems.aspx?id=%2FNVSOrg%2FBSF%2FPMO%5FPorfolio%2FPrograms%2FP01%20%2D%20MCA%20Program%2FPG07%20%2D%20Information%20Architecture%20UI%20UX%20Design%2FBSFMCA%5FUX%5FResourceLibrary%5FR102%2Epdf&parent=%2FNVSOrg%2FBSF%2FPMO%5FPorfolio%2FPrograms%2FP01%20%2D%20MCA%20Program%2FPG07%20%2D%20Information%20Architecture%20UI%20UX%20Design

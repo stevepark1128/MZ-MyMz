@@ -1,0 +1,46 @@
+ng build bsf-groups --prod
+npm publish dist/bsf-groups
+
+npm run-script build
+ng serve --ssl=true
+
+dotnet ef dbcontext Scaffold "Server=localhost,1433;Initial Catalog=BSF_DB;Trusted_Connection=True" Microsoft.EntityFrameworkCore.SqlServer -o Entities
+
+
+npm link ../../BSF-UI-Library/dist/common-ui  
+      
+npm link  
+npm link @bsf/ui-library  
+
+npm unlink --no-save  @bsf/ui-library  
+npm unlink  
+
+npm cache clean --force  
+
+npm install ../../BSF-UI-Library/dist/common-ui           
+
+angular/cli --version    
+ng --version 
+node --version  
+
+npm uninstall -g @angular-cli 
+npm install -g @angular/cli@latest
+npm install -g npm   
+
+npm install rimraf -g     
+rimraf dist  
+rimraf node_modules
+
+npm uninstall -g vsts-npm-auth  
+npm install -g vsts-npm-auth -config .npmrc      
+npm install -g vsts-npm-auth 
+
+npm install -g vsts-npm-auth --registry https://registry.npmjs.com --always-auth false
+vsts-npm-auth -config .npmrc
+vsts-npm-auth -config .npmrc -F   
+
+
+npm config set strict-ssl=false  
+
+ng build common-ui --prod
+npm publish dist/common-ui
